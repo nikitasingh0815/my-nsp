@@ -1,0 +1,77 @@
+/* Form.css */
+.form-container {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  background-color: #f4f6f8;
+  min-height: 100vh;
+}
+
+.styled-form {
+  background-color: #ffffff;
+  padding: 25px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.styled-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.styled-form label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  color: #555;
+  font-weight: 500;
+}
+
+.styled-form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.styled-form input:focus {
+  border-color: #007bff;
+  background-color: #f0f8ff;
+}
+
+.styled-form .error {
+  color: red;
+  font-size: 13px;
+  margin-top: 3px;
+}
+
+.styled-form button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  background-color: #28a745; /* Green */
+  color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 30px; /* Rounded rectangle */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.styled-form button:hover {
+  background-color: #218838; /* Darker green */
+  transform: translateY(-2px); /* Hover effect */
+}
+
+.styled-form button:active {
+  background-color: #1e7e34;
+  transform: scale(0.98); /* Click effect */
+}
